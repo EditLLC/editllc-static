@@ -1,0 +1,140 @@
+/* Edit LLC styles */
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.col-sm-4, .col-sm-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.division {
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.info {
+	position: absolute;
+	z-index: 1;
+	top: 40%;
+	width: 100%;
+}
+
+
+
+#montage {
+	background-image: url("../img/editllc-montageforag.jpg");
+}
+
+#montage:after {
+	content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+	background-color: rgba(139,197,62, 0.9);
+}
+
+#projekt15 {
+	background-image: url("../img/editllc-projekt15.jpg");
+}
+
+#projekt15:after {
+	content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255, 0.9);
+}
+
+#buildicus {
+	background-image: url("../img/editllc-buildicus.jpg");
+}
+
+#buildicus:after {
+	content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+	background-color: rgba(0,174,239, 0.9);
+}
+
+.info img {
+	max-height: 140px;
+	display: block;
+	margin: 0 auto 40px;
+}
+
+.info a {
+	padding: 12px 24px;
+	max-width: 120px;
+	border: solid 4px;
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+}
+
+#montage a {
+	border-color: #4b7f06;
+	color: white;
+}
+
+#montage a:hover {
+	border-color: #00a2e3;
+}
+
+#projekt15 a {
+	border-color: black;
+	color: black;
+}
+
+#projekt15 a:hover {
+	border-color: #646464;
+}
+
+#buildicus a {
+	border-color: #004d6d;
+	color: white;
+}
+
+#buildicus a:hover {
+	border-color: #daf1fb;
+}
+
+footer {
+	background-color: black;
+}
+
+.top-footer {
+	padding: 30px 40px 75px;
+}
+
+.top-footer img {
+	height: 50px;
+	width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.bottom-footer {
+	border-top: 1px solid #303030;
+	padding: 20px 40px 0;
+}
+
+.bottom-footer p {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
