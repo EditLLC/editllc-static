@@ -6,8 +6,9 @@ jQuery().ready(function($) {
 
 		$(".division").css("height", windowHeight);
 
-
-
+		$("#close").click(function(){
+			$("#popup").hide();
+		});
 
 	});
 	

@@ -1,11 +1,20 @@
 /* Edit LLC styles */
 
+body {
+	background-color: black;
+}
+
+.content {
+	position: relative;
+}
+
+
 .row {
 	margin-left: 0;
 	margin-right: 0;
 }
 
-.col-sm-4, .col-sm-12 {
+.col-lg-4, .col-sm-12 {
 	padding-left: 0;
 	padding-right: 0;
 }
