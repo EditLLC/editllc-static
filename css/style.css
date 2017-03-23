@@ -8,6 +8,80 @@ body {
 	position: relative;
 }
 
+#popup {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	z-index: 2;
+}
+
+#welcome {
+	-moz-background-clip: border;     /* Firefox 3.6 */
+	-webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+	background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+				
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+				
+
+	position: relative;
+	padding: 20px 20px 15px;
+	background-color: #F2F2F2;
+	max-width: 800px;
+	min-width: 100px;
+	margin: 0 auto;
+	display: block;
+	border: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+#close {
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	cursor: pointer;
+}
+
+#welcome h4 {
+	font-size: 22.5px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #D3D3D3;
+	margin-bottom: 15px;
+}
+
+#welcome p {
+	font-size: 15px;
+}
+
+#welcome a {
+	text-decoration: none;
+}
+
+#welcome img {
+	margin: 5px 20px 20px 0;
+	width: 175px;
+	margin: 5px 20px 50px 0;
+}
+
+#welcome img#build-pic {
+	width: 125px;
+}
+
+#welcome .intro-email {
+	color: white;
+	padding: 10px 30px;
+	background-color: #0f0f0f;
+}
+
+#welcome .intro-email:hover {
+	background-color: black;
+}
+
+#close img {
+	width: 30px;
+	margin: 0;
+}
 
 .row {
 	margin-left: 0;
