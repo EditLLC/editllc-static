@@ -10,6 +10,25 @@ jQuery().ready(function($) {
 			$("#popup").hide();
 		});
 
+		$('#popup').click(function() {                    
+			$("#popup").hide();
+		});
+
+		$("#messages").click(function(e) {
+			e.stopPropagation();
+			return false;     
+		});
+
+		$(".button").click(function(e){
+		    var targetLink = $(this).attr('href'); 
+		    window.open(targetLink, '_blank');
+		});
+		
+		$(".intro-email").click(function(e){
+		    var targetLink = $(this).attr('href'); 
+		    window.open(targetLink, '_blank');
+		});
+
 	});
 	
 });

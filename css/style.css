@@ -26,7 +26,6 @@ body {
 				
 
 	position: relative;
-	padding: 20px 20px 15px;
 	background-color: #F2F2F2;
 	max-width: 800px;
 	min-width: 100px;
@@ -40,6 +39,10 @@ body {
 	right: -15px;
 	top: -15px;
 	cursor: pointer;
+}
+
+#messages {
+	padding: 20px 20px 15px;
 }
 
 #welcome h4 {
